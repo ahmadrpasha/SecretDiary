@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> New Entry </title>
+  <link href="newEntry2.css" type="text/css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="newEntry.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <heading>
+      <h1>NEW ENTRY</h1>
+        <nav>
+          <button onclick="size()">Size</button>
+          <button onclick="bold()" id="bolD">B</button>
+          <button onclick="italic()" id="italiC">I</button>
+          <button onclick="underline()" id="underlinE">U</button>
+        </nav>
+    </heading>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="homepage.html">HOME PAGE</a>
+      <a href="newEntry.html">NEW ENTRY</a>
+      <a href="index.html">WEATHER</a>
+    </div>
+    <button onclick="openNav();"> Navigation </button>
+
+    <div id="content">
+      <textarea id="inputPara" ></textarea>
+    </div>
+    <div id="endButtons">
+      <button onclick="save()" id="savE">Save</button>
+      <button onclick="document.getElementById('inputPara').value = ''" id="cleaR">Clear</button>
+    </div>
+
+
+</body>
+
+</html>

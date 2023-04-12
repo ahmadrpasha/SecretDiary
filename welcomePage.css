@@ -1,0 +1,37 @@
+* {
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align:center;
+}
+
+
+body {
+    background-image:url(images/oldDiaryCover.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+h1 {
+    color:wheat;
+    text-align:center;
+    font-size:60px;
+}
+#welcomeBox {
+    margin:15%;
+    font-size:25px;
+    height:220px;
+    width:600px;;
+    position: center;
+}
+
+button {
+    /*bottom: 60px;
+    right: 350px;*/
+    font-size:30px;
+    background-color:#8f4c00;
+    font-style:bold;
+    border-color:black;
+    color: white;
+
+}

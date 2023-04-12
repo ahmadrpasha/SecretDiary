@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Home Page </title>
+  <link href="homepage2.css" type="text/css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="homepage.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <h1>HOME PAGE</h1>
+    </header>
+    <div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="homepage.html">HOME PAGE</a>
+          <a href="newEntry.html">NEW ENTRY</a>
+          <a href="index.html">WEATHER</a>
+        </div>
+        <button onclick="openNav();"> Navigation </button>
+        <button onclick="newEntry();"> NEW ENTRY </button>
+        <button onclick="openWeather();"> WEATHER </button>        
+    </div>
+    <div id=listOfEntries>
+    </div>
+</body>
+
+</html>
